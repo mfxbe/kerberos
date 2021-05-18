@@ -1,10 +1,10 @@
 <sup>Internally known as eu.kosy.Kerberos</sup>
 # Kerberos (Kosy Lock screen)
 
-![GitHub](https://img.shields.io/github/license/kosyteam/kerberos?style=flat-square)
-[![Liberapay receiving](https://img.shields.io/liberapay/receives/mfxbe?logo=liberapay&style=flat-square)](https://liberapay.com/mfxbe/donate)
-[![Matrix](https://img.shields.io/matrix/kosyteam:mfxbe.de?logo=matrix&style=flat-square&color=brightgreen)](https://matrix.to/#/#kosyteam:mfxbe.de)
 ![Status](https://img.shields.io/badge/⚒_status-active-blue?style=flat-square)
+![GitHub](https://img.shields.io/github/license/kosyteam/kerberos?style=flat-square)
+[![Matrix](https://img.shields.io/matrix/kosyteam:mfxbe.de?logo=matrix&style=flat-square&color=brightgreen)](https://matrix.to/#/#kosyteam:mfxbe.de)
+[![Liberapay receiving](https://img.shields.io/liberapay/receives/mfxbe?logo=liberapay&style=flat-square)](https://liberapay.com/mfxbe/donate)
 
 
 > :warning: **Warning**: This software is still in a development statues. Use on productiv systems is not recommended. There might be major safety and stability problems. Multi monitors systems aren't supported at all.
