@@ -3,7 +3,7 @@
 
 ![Status](https://img.shields.io/badge/⚒_status-active-blue?style=flat-square)
 ![GitHub](https://img.shields.io/github/license/kosyteam/kerberos?style=flat-square&label=►license)
-[![Matrix](https://img.shields.io/matrix/kosy:tchncs.de?logo=matrix&style=flat-square&color=brightgreen)](https://matrix.to/#/#kosy:tchncs.de)
+[![Matrix](https://img.shields.io/matrix/kosyteam:tchncs.de?logo=matrix&server_fqdn=tchncs.de&style=flat-square)](https://matrix.to/#/#kosyteam:tchncs.de)
 [![Liberapay receiving](https://img.shields.io/liberapay/receives/mfxbe?logo=liberapay&style=flat-square)](https://liberapay.com/mfxbe/donate)
 
 
