@@ -34,7 +34,7 @@ void inhibit_input(){
 	wl_display_roundtrip(wlDisplay);
 	
 	if (input_inhibit_manager == NULL){
-		g_print("Error: Can't reach inhibit manager.\n");
+		g_warning("Error: Can't reach inhibit manager.\n");
 	}
 	
 	zwlr_input_inhibit_manager_v1_get_inhibitor(input_inhibit_manager);
