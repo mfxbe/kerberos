@@ -74,5 +74,7 @@ Of course it's also possible to start kerberos directly with the `kerberos` comm
 ### Notifications
 If the [Mako notification deamon](https://wayland.emersion.fr/mako/) is reachable via dbus Kerberos will automaticly show the number of missed notifications on the bottom of the screen. Other servises are not yet supported. 
 
+---
+
 ### Whats Kosy? Kosy Team?
 I (*mfxbe*) use Kosy as a project name for number of applications I've written for personal use with a specific design and structur in mind. Right now Kerberos is the only one being available in public. Other might or might not be released in future.
