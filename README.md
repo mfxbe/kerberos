@@ -30,7 +30,10 @@ make update-locale
 # Install (requires root)
 sudo make install
 ```
-#### Setup and run
+#### Setup
+todo todo todo todo todo todo todo todo todo todo 
+
+### Run
 todo todo todo todo todo todo todo todo todo todo 
 
 ### Whats Kosy? Kosy Team?
