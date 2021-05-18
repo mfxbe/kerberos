@@ -16,8 +16,23 @@ Kerberos is a simple Gtk4 based lock screen for wayland compositors. It is teste
 todo todo todo todo todo todo todo todo todo todo 
 
 ### Installing
+At the moment there are no available packages for Kerberos. If you want to install it check the instructions for an installation from the source code.
+
 #### Dependencies
-todo todo todo todo todo todo todo todo todo todo 
+
+**Build dependencies**
+* build essentials
+* GTK 4 (>= 4.0)
+* wayland-client (>= 1.19)
+* libpam
+
+**Additional runtime dependencies**
+* wayland compositor
+  * [Protocolls required by GTK]
+  * wlr-input-inhibitor-unstable-v1
+  * idle-inhibit-unstable-v1
+* dbus
+* swayidle (or simular)
 
 #### Install from source
 ```
@@ -44,7 +59,20 @@ If using gsettings all comands are in the same format: `gsettings set eu.kosy.Ke
 *Not setting `custom-theme-path` will cause the default system theme to be used. This can be very buggy.
 
 ### Run
-todo todo todo todo todo todo todo todo todo todo 
+It's recommended to start Kerberos with an idle management daemon like [swayidle](https://github.com/swaywm/swayidle). The command should be executed at startup or login and could like the following:
+
+```
+swayidle -w \
+timeout 300 'kerberos' \
+before-sleep 'kerberos'
+```
+
+Please note that because of limitaions in GTK 4 in combination with the wlr-layer-shell-unstable-v1-protocol some implementations will prevent further idle actions (like automatic suspend) after the start of kerberos. For more information see [#1](https://github.com/KosyTeam/kerberos/issues/1#issue-894604370).
+
+Of course it's also possible to start kerberos directly with the `kerberos` command. It's no problem to call kerberos multiple times. If there is a running instance nothing will happen.
+
+### Notifications
+If the [Mako notification deamon](https://wayland.emersion.fr/mako/) is reachable via dbus Kerberos will automaticly show the number of missed notifications on the bottom of the screen. Other servises are not yet supported. 
 
 ### Whats Kosy? Kosy Team?
 I (*mfxbe*) use Kosy as a project name for number of applications I've written for personal use with a specific design and structur in mind. Right now Kerberos is the only one being available in public. Other might or might not be released in future.
