@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-17 19:31+0200\n"
+"POT-Creation-Date: 2021-05-18 12:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,11 +26,11 @@ msgstr ""
 msgid "%d new notifications."
 msgstr ""
 
-#: data/locker.ui:93
+#: data/locker.ui:94
 msgid "Caps lock is enabled!"
 msgstr ""
 
-#: src/actions.c:74 data/locker.ui:113
+#: src/actions.c:74 data/locker.ui:114
 msgid "No new notifications."
 msgstr ""
 
@@ -46,11 +46,11 @@ msgstr ""
 msgid "Suspend"
 msgstr ""
 
-#: data/locker.ui:47 data/locker.ui:88
+#: data/locker.ui:47 data/locker.ui:89
 msgid "System locked"
 msgstr ""
 
-#: src/main.c:100 src/main.c:101
+#: src/main.c:101 src/main.c:102
 #, c-format
 msgid "Unlock as <i>%s</i>."
 msgstr ""

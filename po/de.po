@@ -1,0 +1,71 @@
+# German translations for k package.
+# Copyright (C) 2021 THE k'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the k package.
+# Manuel Ehrmanntraut <manuel@manuelpc>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: k 2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-18 12:46+0200\n"
+"PO-Revision-Date: 2021-05-17 15:53+0200\n"
+"Last-Translator: Manuel Ehrmanntraut <manuel@manuelpc>\n"
+"Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/main.c:25
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: src/actions.c:80 src/actions.c:81
+#, c-format
+msgid "%d new notifications."
+msgstr "%d neue Benachrichtigungen."
+
+#: data/locker.ui:94
+msgid "Caps lock is enabled!"
+msgstr "Feststelltaste ist aktiviert!"
+
+#: src/actions.c:74 data/locker.ui:114
+msgid "No new notifications."
+msgstr "Keine neuen Benachrichtigungen."
+
+#: src/actions.c:77
+msgid "One new notifications."
+msgstr "Eine neue Benachrichtigung."
+
+#: data/locker.ui:19
+msgid "Shutdown"
+msgstr "Herunterfahren"
+
+#: data/locker.ui:15
+msgid "Suspend"
+msgstr "Ruhemodus"
+
+#: data/locker.ui:47 data/locker.ui:89
+msgid "System locked"
+msgstr "System gesperrt"
+
+#: src/main.c:101 src/main.c:102
+#, c-format
+msgid "Unlock as <i>%s</i>."
+msgstr "Als <i>%s</i> entsperren."
+
+#: src/actions.c:135
+msgid "Unlocking system"
+msgstr "Entsperre System."
+
+#: src/actions.c:127
+msgid "Verifing input"
+msgstr "Überprüfe Eingabe."
+
+#: src/actions.c:142
+msgid "Wrong input, please try again."
+msgstr "Falsche Eingabe, bitte erneut versuchen."
+
+#~ msgid "Login"
+#~ msgstr "Anmelden"
