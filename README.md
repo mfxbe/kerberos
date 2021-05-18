@@ -59,7 +59,7 @@ If using gsettings all commands are in the same format: `gsettings set eu.kosy.K
 *Not setting `custom-theme-path` will cause the default system theme to be used. This can be very buggy.
 
 ### Run
-It's recommended to start Kerberos with an idle management daemon like [swayidle](https://github.com/swaywm/swayidle). The command should be executed at startup or login and could like the following:
+It's recommended to start Kerberos with an idle management daemon like [swayidle](https://github.com/swaywm/swayidle). The command should be executed at startup or login and could look like the following:
 
 ```
 swayidle -w \
@@ -76,7 +76,7 @@ If the [Mako notification daemon](https://wayland.emersion.fr/mako/) is reachabl
 
 ### Getting help & Reporting bugs
 
-The simplest way to get help is the [Kosy Team Matrix Group](https://matrix.to/#/#kosyteam:mfxbe.de) alternativly you can also write a e-mail. There will be a solution on the way. If you have found a bug or a feature request than you can use our [bug tracker](https://github.com/KosyTeam/kerberos/issues), but please do not ask questions there.
+The simplest way to get help is the [Kosy Team Matrix Group](https://matrix.to/#/#kosyteam:tchncs.de) alternativly you can also write a e-mail. There will be a solution on the way. If you have found a bug or a feature request than you can use our [bug tracker](https://github.com/KosyTeam/kerberos/issues), but please do not ask questions there.
 
 ---
 
