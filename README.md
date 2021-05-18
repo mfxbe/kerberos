@@ -74,6 +74,10 @@ Of course it's also possible to start kerberos directly with the `kerberos` comm
 ### Notifications
 If the [Mako notification deamon](https://wayland.emersion.fr/mako/) is reachable via dbus Kerberos will automaticly show the number of missed notifications on the bottom of the screen. Other servises are not yet supported. 
 
+### Getting help & Reporting bugs
+
+The simplest way to get help is the [Kosy Team Matrix Group](https://matrix.to/#/#kosyteam:mfxbe.de) alternativly you can also write a e-mail. There'll be a solution on the wawy. If you have found a bug than you can use our [bug tracker](https://github.com/KosyTeam/kerberos/issues), but please do not ask questions there.
+
 ---
 
 ### Whats Kosy? Kosy Team?
