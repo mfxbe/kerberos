@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<schemalist>
+	<schema path="/eu/kosy/Kerberos/" id="eu.kosy.Kerberos">
+		<key name='custom-theme' type='b'>
+			<default>false</default>
+			<summary>Use custom kosy theme</summary>
+			<description>
+				If disabled, then the application will use the integrated Theme from the Kosy Project. Otherwise the one specified in custom-theme-path.
+			</description>
+		</key>
+		<key name='custom-theme-path' type='s'>
+			<default>''</default>
+			<summary>Path to custom theme</summary>
+			<description>
+				Absolute path to the css file which should be used for styling.
+			</description>
+		</key>
+		<key name='allow-shutdown' type='b'>
+			<default>true</default>
+			<summary>Allow shutdown from lock screen</summary>
+			<description>
+				Allows the user to shutdown the system from the lock screen. This can lead to data loss.
+			</description>
+		</key>
+		<key name='background-image' type='s'>
+			<default>''</default>
+			<summary>Path to the background image to be shown</summary>
+			<description>
+				Absolute path to the background image. Image should have fitting resolution and will only be streched. Empty means default.
+			</description>
+		</key>
+	</schema>
+</schemalist>
+

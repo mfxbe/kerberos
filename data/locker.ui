@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF_8"?>
+<!-- Kerberos - Kosy Lockscreen -->
+<!-- Copyright © 2020 Kosy Team <kosyteam.github.io> -->
+<!-- This project is available as GPLv3, see LICENCE.md -->
+
+<interface>
+
+	<!-- Following creation of Image and other linkable widgets -->
+	<menu id="systemMenuModell">
+		<!--<item>
+			<attribute name="label" translatable="yes">(Beenden)</attribute>
+			<attribute name="action">app.quit</attribute>
+		</item>-->
+		<item>
+			<attribute name="label" translatable="yes">Suspend</attribute>
+			<attribute name="action">app.suspend</attribute>
+		</item>
+		<item>
+			<attribute name="label" translatable="yes">Shutdown</attribute>
+			<attribute name="action">app.shutdown</attribute>
+		</item>
+	</menu>
+	
+	
+	<!-- Create most elements for the top panel and add links to menus -->
+	<object id="lockerWindow" class="GtkApplicationWindow">
+		<property name="title">Kerberos</property>
+		<signal name="destroy" handler="quit_cb" />
+		<child>
+			<object class="GtkOverlay">
+			
+				<child>
+					<object id="backgroundImage" class="GtkPicture">
+						<property name="keep-aspect-ratio">FALSE</property>
+					</object>
+				</child>
+				
+				<child type="overlay">
+					<object class="GtkBox">
+						<property name="orientation">GTK_ORIENTATION_VERTICAL</property>
+						<child>
+							<object class="GtkBox">
+								<property name="orientation">GTK_ORIENTATION_HORIZONTAL</property>
+								<property name="spacing">10</property>
+								<child>
+									<object class="GtkLabel">
+										<property name="label" translatable="yes">System locked</property>
+											<style>
+												<class name="title" />
+											</style>
+									</object>
+								</child>
+								<child>
+									<object class="GtkLabel" id="clockLabel">
+										<property name="label">00:00</property>
+										<property name="hexpand">TRUE</property>
+										<property name="halign">GTK_ALIGN_END</property>
+									</object>
+								</child>
+								<child>
+									<object class="GtkMenuButton" id="menuButton1">
+										<property name="has-frame">FALSE</property>
+										<property name="can-focus">FALSE</property>
+										<property name="direction">GTK_ARROW_NONE</property>
+										<property name="icon-name">system-shutdown-symbolic</property>
+										<property name="menu-model">systemMenuModell</property>
+									</object>
+								</child>
+								<style>
+									<class name="panel" />
+								</style>
+							</object>
+						</child>
+						<child>
+							<object class="GtkBox">
+								<property name="orientation">GTK_ORIENTATION_VERTICAL</property>
+								<property name="halign">GTK_ALIGN_FILL</property>
+								<property name="valign">GTK_ALIGN_CENTER</property>
+								<property name="vexpand">TRUE</property>
+								<child>
+									<object class="GtkImage">
+										<property name="icon-name">system-users-symbolic</property>
+										<property name="pixel-size">48</property>
+										<property name="halign">GTK_ALIGN_CENTER</property>
+									</object>
+								</child>
+								<child>
+									<object class="GtkLabel"  id="usernameLabel">
+										<property name="label" translatable="yes">System locked</property>
+									</object>
+								</child>
+								<child>
+									<object class="GtkLabel"  id="warningLabel">
+										<property name="label" translatable="yes">Caps lock is enabled!</property>
+										<property name="visible">FALSE</property>
+									</object>
+								</child>
+								<child>
+									<object class="GtkEntry" id="paswdEntry">
+										<property name="input-purpose">GTK_INPUT_PURPOSE_PASSWORD</property>
+										<property name="visibility">FALSE</property>
+										<property name="can-focus">TRUE</property>
+										<property name="secondary-icon-name">mail-replied-symbolic</property>
+										<property name="halign">GTK_ALIGN_CENTER</property>
+									</object>
+								</child>
+								<style>
+									<class name="loginbox" />
+								</style>
+							</object>
+						</child>
+						<child>
+							<object class="GtkLabel" id="notifyLabel">
+								<property name="label" translatable="yes">No new notifications.</property>
+								<property name="valign">GTK_ALIGN_END</property>
+								<style>
+									<class name="notifyLabel" />
+								</style>
+							</object>
+						</child>
+					</object>
+				</child>
+				
+			</object>
+		</child>
+		<style>
+			<class name="locker"/>
+		</style>
+	</object>
+	
+</interface>

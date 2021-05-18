@@ -1,0 +1,11 @@
+<!-- Kerberos - Kosy Lockscreen -->
+<!-- Copyright © 2020 Kosy Team <kosyteam.github.io> -->
+<!-- This project is available as GPLv3, see LICENCE.md -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+	<gresource prefix="/eu/kosy/Kerberos">
+		<file>locker.ui</file>
+		<file>integratedTwo.css</file>
+	</gresource>
+</gresources>
