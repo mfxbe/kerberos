@@ -31,7 +31,17 @@ make update-locale
 sudo make install
 ```
 #### Setup
-todo todo todo todo todo todo todo todo todo todo 
+Kerberos does not provide a graphical interface to change its settings, but this can easily done with `gsettings` (alternativly dconf-editor could be used). Before doing this please take sure that everything installed without any error.
+
+If using gsettings all comands are in the same format: `gsettings set eu.kosy.Kerberos [key] [value]`. See table for the specific settings.
+|Setting|Key|Possible values|
+|---|---|---|
+|Allow shutdown from lock screen|`allow-shutdown`|`true` or `false`|
+|Set the background image to be used|`background-image`|Absolute path (e.g. `/home/user/Images/background.jpg`) or `''` for default|
+|Use custom theme instead of the integrated|`custom-theme`|`true` or `false`|
+|Set the css file containing the custom styling|`custom-theme-path`|Absolute path (e.g. `/home/user/.themes/custom.css`)*||
+
+*Not setting `custom-theme-path` will cause the default system theme to be used. This can be very buggy.
 
 ### Run
 todo todo todo todo todo todo todo todo todo todo 
