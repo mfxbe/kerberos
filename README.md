@@ -2,7 +2,7 @@
 # Kerberos (Kosy Lock screen)
 
 ![Status](https://img.shields.io/badge/⚒_status-active-blue?style=flat-square)
-![GitHub](https://img.shields.io/github/license/kosyteam/kerberos?style=flat-square)
+![GitHub](https://img.shields.io/github/license/kosyteam/kerberos?style=flat-square&label=►license)
 [![Matrix](https://img.shields.io/matrix/kosyteam:mfxbe.de?logo=matrix&style=flat-square&color=brightgreen)](https://matrix.to/#/#kosyteam:mfxbe.de)
 [![Liberapay receiving](https://img.shields.io/liberapay/receives/mfxbe?logo=liberapay&style=flat-square)](https://liberapay.com/mfxbe/donate)
 
