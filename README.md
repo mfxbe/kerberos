@@ -1,5 +1,5 @@
 # Kerberos (Kosy Lock screen)
-<small>Internally known as eu.kosy.Kerberos</small>
+<sup>Internally known as eu.kosy.Kerberos</sup>
 
 > :warning: **Warning**: This software is still in a development statues. Use on productiv systems is not recommendet. There might be major safety and stability problems. Multi monitors systems aren't supported at all.
 
