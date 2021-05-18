@@ -76,7 +76,7 @@ If the [Mako notification deamon](https://wayland.emersion.fr/mako/) is reachabl
 
 ### Getting help & Reporting bugs
 
-The simplest way to get help is the [Kosy Team Matrix Group](https://matrix.to/#/#kosyteam:mfxbe.de) alternativly you can also write a e-mail. There'll be a solution on the way. If you have found a bug than you can use our [bug tracker](https://github.com/KosyTeam/kerberos/issues), but please do not ask questions there.
+The simplest way to get help is the [Kosy Team Matrix Group](https://matrix.to/#/#kosyteam:mfxbe.de) alternativly you can also write a e-mail. There'll be a solution on the way. If you have found a bug or a feature request than you can use our [bug tracker](https://github.com/KosyTeam/kerberos/issues), but please do not ask questions there.
 
 ---
 
