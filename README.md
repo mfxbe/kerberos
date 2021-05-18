@@ -13,7 +13,7 @@ Kerberos is a simple Gtk4 based lock screen for wayland compositors. It is teste
 
 [![Preview image with link to video](https://raw.githubusercontent.com/KosyTeam/kerberos/master/preview.png "Click to see video")](https://tube.odat.xyz/videos/watch/bae82edf-c454-4f10-9fd1-856e7fd7b3c0?autoplay=1&muted=1)
 
-todo todo todo todo todo todo todo todo todo todo 
+It provides a simple screenshield with a login prompt and allows a custom background image. There is also a possebilty to use you on CSS themes for your personal experience.
 
 ### Installing
 At the moment there are no available packages for Kerberos. If you want to install it check the instructions for an installation from the source code.
@@ -76,7 +76,7 @@ If the [Mako notification deamon](https://wayland.emersion.fr/mako/) is reachabl
 
 ### Getting help & Reporting bugs
 
-The simplest way to get help is the [Kosy Team Matrix Group](https://matrix.to/#/#kosyteam:mfxbe.de) alternativly you can also write a e-mail. There'll be a solution on the wawy. If you have found a bug than you can use our [bug tracker](https://github.com/KosyTeam/kerberos/issues), but please do not ask questions there.
+The simplest way to get help is the [Kosy Team Matrix Group](https://matrix.to/#/#kosyteam:mfxbe.de) alternativly you can also write a e-mail. There'll be a solution on the way. If you have found a bug than you can use our [bug tracker](https://github.com/KosyTeam/kerberos/issues), but please do not ask questions there.
 
 ---
 
