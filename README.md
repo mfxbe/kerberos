@@ -1,5 +1,5 @@
 <sup>Internally known as eu.kosy.Kerberos</sup>
-# Kerberos (Kosy Lock screen)
+# Kerberos (Lock screen)
 
 ![Status](https://img.shields.io/badge/⚒_status-inactive-red?style=flat-square)
 ![GitHub](https://img.shields.io/github/license/kosyteam/kerberos?style=flat-square&label=►license)
